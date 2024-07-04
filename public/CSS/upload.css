@@ -1,0 +1,280 @@
+.textbox {
+  border-radius: 7px;
+  margin-left: 10px;
+
+}
+
+.labels {
+  color: black;
+  margin: 10px
+}
+
+.reset-btn {
+
+  background-image: linear-gradient(to right, #fdc58d 0%, #FFFFFF 51%, #ECE9E6 100%);
+  margin: 10px;
+  padding: 10px 25px;
+  text-align: center;
+  text-transform: uppercase;
+
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: rgb(12, 76, 45);
+  /* box-shadow: 0 0 20px #eee; */
+  border-radius: 10px;
+  display: block;
+}
+
+.reset-btn:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #000;
+  text-decoration: none;
+}
+
+
+
+#analytics {
+
+  background-image: linear-gradient(to right, #3494E6 0%, #EC6EAD 51%, #3494E6 100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  /* box-shadow: 0 0 20px #eee; */
+  border-radius: 10px;
+  display: block;
+}
+
+#analytics:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #322626;
+  text-decoration: none;
+}
+
+
+
+.upload-btn {
+
+  background-image: linear-gradient(to right, #000000 0%, #53346D 51%, #000000 100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  /* box-shadow: 0 0 20px #eee; */
+  border-radius: 10px;
+  display: block;
+}
+
+.upload-btn:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+.post_details {
+  width: 100%;
+  /* max-width: auto; */
+  /* display: flex; */
+  position: relative;
+  min-height: auto;
+  align-items: center;
+  /* padding-top: var(--dl-space-space-sixunits); */
+  /* padding-left: var(--dl-space-space-threeunits); */
+  /* padding-right: var(--dl-space-space-threeunits); */
+  flex-direction: column;
+  /* padding-bottom: var(--dl-space-space-sixunits); */
+  justify-content: center;
+  /* background-color: var(--dl-color-custom-secondary1); */
+  background-color: bisque;
+  border-radius: 12px;
+  padding: 20px;
+  /* margin: 30px;  */
+  overflow: hidden;
+}
+
+.BanUnban {
+  /* background-color: #11efc3; */
+  background-image: linear-gradient(to right, #ea143d 0%, #2e332d 51%, #003973 100%);
+  margin: 10px;
+  padding: 2px 7px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: inset 8px 2px 8px -4px #eee;
+  border-radius: 9px;
+  display: block;
+}
+
+#form_submit {
+  background-color: brown;
+  padding: 8px;
+  width: 10vmax;
+  border-radius: 20px;
+  margin: 20px;
+
+}
+
+.banContainer {
+  display: flex;
+}
+
+.moreOption {
+  background-image: linear-gradient(to right, #16A085 0%, #F4D03F 51%, #16A085 100%);
+  margin: 10px;
+  padding: 10px 40px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #000;
+  border-radius: 10px;
+  display: block;
+}
+
+.moreOption:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+
+}
+
+#logout {
+  background-image: linear-gradient(to right, #e52d27 0%, #b31217 51%, #211919 100%);
+  margin: 10px;
+  padding: 10px 35px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  /* box-shadow: 0 0 20px #eee; */
+  border-radius: 15px;
+  display: block;
+}
+
+#logout:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+
+}
+
+.allLogout {
+
+  background-image: linear-gradient(to right, #C04848 0%, #480048 51%, #C04848 100%);
+  margin: 10px;
+  padding: 15px 35px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  /* box-shadow: 0 0 20px #eee; */
+  border-radius: 10px;
+  display: block;
+}
+
+.allLogout:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+
+
+
+}
+
+
+.ban {
+
+  background-image: linear-gradient(to right, #003973 0%, #E5E5BE 51%, #003973 100%);
+  margin: 10px;
+  padding: 15px 35px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  /* box-shadow: 0 0 20px #eee; */
+  border-radius: 10px;
+  display: block;
+}
+
+.ban:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+
+
+}
+
+.Maintenance {
+
+  background-image: linear-gradient(to right, #AA076B 0%, #61045F 51%, #AA076B 100%);
+  margin: 10px;
+  padding: 15px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  /* box-shadow: 0 0 20px #eee; */
+  border-radius: 10px;
+  display: block;
+  /* width:400px; */
+}
+
+.Maintenance:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+
+
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.loginDetails {
+
+  background-image: linear-gradient(to right, #50C9C3 0%, #96DEDA 51%, #50C9C3 100%);
+  margin: 10px;
+  padding: 15px 35px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #000;
+  /* box-shadow: 0 0 20px #eee; */
+  border-radius: 10px;
+  display: block;
+}
+
+.loginDetails:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
